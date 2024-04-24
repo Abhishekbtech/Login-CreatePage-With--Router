@@ -4,7 +4,7 @@ const CreateAccountPage = ({ onCreateAccount }) => {
   const [fullName, setFullName] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [password, setPassword] = useState("")
   const [company, setCompany] = useState("");
   const [isAgency, setIsAgency] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
